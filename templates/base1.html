@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>EYE SCANNER</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"  href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pogo-slider.min.css') }}" >
+	<!-- Site CSS -->
+    <link rel="stylesheet"  href="{{ url_for('static', filename='css/style.css') }}">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet"  href="{{ url_for('static', filename='css/responsive.css') }}">
+    <!-- Custom CSS -->
+    <link rel="stylesheet"  href="{{ url_for('static', filename='css/custom.css') }}">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+	<!-- LOADER -->
+     <!-- <div id="preloader">
+		<div class="loader">
+			<img src="images/preloader.gif" alt="" />
+		</div>
+    </div>end loader -->
+    <!-- END LOADER -->
+	
+	<!-- Start top bar -->
+
+	<!-- End top bar -->
+	
+	<!-- Start header -->
+	<header class="top-header">
+		<nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+				<a class="navbar-brand" href="index.html"><img src="{{ url_for('static', filename='images/logo.png') }}" alt="image"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="#home">Home</a></li>
+                        <li><a class="nav-link" href="#about">About Us</a></li>
+                        
+						<li><a class="nav-link" href="#appointment">Checkup</a></li>
+						<li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+	<!-- End header -->
+	
+	<!-- Start Banner -->
+	<div class="ulockd-home-slider">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="pogoSlider" id="js-main-slider">
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url({{ url_for('static', filename='images/slider-01.jpg') }});">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<h1>Welcome to our website</h1>
+								<p>We provide free checkup for eye diseases</p>
+								<a href="#about" class="btn">Read more</a>
+							</div>
+						</div>
+					</div>
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(../static/images/slider-02.jpg);">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<h1>We are using Machine Learning Algorithm</h1>
+								<p>Through the machine learning model we predict the eye diseases from images</p>
+								<a href="#appointment" class="btn">Checkup</a>
+							</div>
+						</div>
+					</div>
+				
+				</div><!-- .pogoSlider -->
+			</div>
+		</div>
+	</div>
+	<!-- End Banner -->
+	
+	<!-- Start About us -->
+	<div id="about" class="about-box">
+		<div class="about-a1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="title-box">
+							<h2>ABOUT US</h2>
+							
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<h2> <b>Retina Disease Test</b></h2>
+								<p>Retina Diseases, the most common diabetic eye disease, occurs when blood vessels in the retina change. Sometimes these vessels swell and leak fluid or even close off completely. In other cases, abnormal new blood vessels grow on the surface of the retina.</p>
+
+                                <p>The retina is a thin layer of light-sensitive tissue that lines the back of the eye. Light rays are focused onto the retina, where they are transmitted to the brain and interpreted as the images you see. The macula is a very small area at the center of the retina. It is the macula that is responsible for your pinpoint vision, allowing you to read, sew or recognize a face. The surrounding part of the retina, called the peripheral retina, is responsible for your side—or peripheral—vision.</p>
+
+                               <p>retinopathy usually affects both eyes. People who have diabetic retinopathy often don't notice changes in their vision in the disease's early stages. But as it progresses, diabetic retinopathy usually causes vision loss that in many cases cannot be reversed. </p>
+								<a href="#" class="new-btn-d br-2">Read More</a>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								
+								<div class="about-m">
+								
+								
+										<li>
+											<img src="../static/images/about-img-01.jpg" alt="">
+										</li>
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				</div>
+	</div>
+				<br>
+				<div id="about" class="about-box">
+				<div class="about-a1">
+				<div class="container">	
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="row align-items-center about-main-info">
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								<h2>Cataract Test </h2>
+								<p>Cataract surgery involves removing the clouded lens and replacing it with a clear artificial lens. The artificial lens, called an intraocular lens, is positioned in the same place as your natural lens. It remains a permanent part of your eye.
+
+For some people, other eye problems prohibit the use of an artificial lens. In these situations, once the cataract is removed, vision may be corrected with eyeglasses or contact lenses.</p>
+
+<p>Cataract surgery is generally done on an outpatient basis, which means you won't need to stay in a hospital after the surgery. During cataract surgery, your eye doctor uses local anesthetic to numb the area around your eye, but you usually stay awake during the procedure.
+
+Cataract surgery is generally safe, but it carries a risk of infection and bleeding. Cataract surgery increases the risk of retinal detachment. </p>
+					<a href="#" class="new-btn-d br-2">Read More</a>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12">
+								
+								<div class="about-m">
+						
+											<img src="../static/images/about-img-042.jpg" alt="">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About us -->
+	
+	<!-- Start Services -->
+	
+	<!-- End Services -->
+	
+	<!-- Start Appointment -->
+	<div id="appointment" class="appointment-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>CHECK UP</h2>
+						<p>Fill the details specified accordingly </p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="well-block">
+                        <div class="well-title">
+                            <h2>CHECK YOUR EYE</h2>
+                        </div>
+                        
+                            <!-- Form start -->
+                              <div class="container">
+        <div id="content" >{% block content %}{% endblock %}</div>
+    </div>
+                        
+                        <!-- form end -->
+                    </div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="well-block">
+                        <div class="well-title">
+                            <h2>HOW DOES THIS WORKS</h2>
+                        </div>
+                        <div class="feature-block">
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">Upload the image</h4>
+                                <div class="feature-content">
+                                    <p>Select the image of effected eye on upload image button from your system.</p>
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">Processing of data using machine learning model</h4>
+                                <div class="feature-content">
+                                    <p>The model will detect the eye diseases by extracting the features of the retina.</p>
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">Generate a report</h4>
+                                <div class="feature-content">
+                                    <p>As soon as algorithm is applied the results are fetched, a report is generated.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Appointment -->
+	
+	<!-- Start Gallery -->
+	
+	<!-- End Gallery -->
+	
+	<!-- Start Team -->
+
+	<!-- End Team -->
+	
+	
+	<!-- End Blog -->
+	
+	<!-- Start Contact -->
+	<div id="contact" class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="title-box">
+						<h2>CONTACT US</h2>
+						<p>Want to get in touch? We'd love to hear from you.Here's how you can reach us.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				
+				<div class="col-lg-12 col-xs-12">
+				  <div class="contact-block">
+					<form id="contactForm">
+					  <div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+								<div class="help-block with-errors"></div>
+							</div>                                 
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+								<div class="help-block with-errors"></div>
+							</div> 
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<input type="text" placeholder="Your number" id="number" class="form-control" name="number" required data-error="Please enter your number">
+								<div class="help-block with-errors"></div>
+							</div> 
+						</div>
+						<div class="col-md-12">
+							<div class="form-group"> 
+								<textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
+								<div class="help-block with-errors"></div>
+							</div>
+							<div class="submit-button text-center">
+								<button class="btn btn-common" id="submit" type="submit">Send Message</button>
+								<div id="msgSubmit" class="h3 text-center hidden"></div> 
+								<div class="clearfix"></div> 
+							</div>
+						</div>
+					  </div>            
+					</form>
+				  </div>
+				</div>
+				
+				
+				<div class="col-lg-12 col-xs-12">
+					<div class="left-contact">
+						<h2>Address</h2>
+						<div class="media cont-line">
+							<div class="media-left icon-b">
+								<i class="fa fa-location-arrow" aria-hidden="true"></i>
+							</div>
+							<div class="media-body dit-right">
+								<h4>Address</h4>
+								<p>xyz</p>
+							</div>
+						</div>
+						<div class="media cont-line">
+							<div class="media-left icon-b">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</div>
+							<div class="media-body dit-right">
+								<h4>Email</h4>
+								<a href="#">abc@gmail.com</a><br>
+								
+							</div>
+						</div>
+						<div class="media cont-line">
+							<div class="media-left icon-b">
+								<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+							</div>
+							<div class="media-body dit-right">
+								<h4>Phone Number</h4>
+								<a href="#"></a><br>
+								<a href="#"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	<!-- End Contact -->
+	
+	<!-- Start Subscribe -->
+	
+	<!-- End Subscribe -->
+	
+	<!-- Start Footer -->
+
+	<!-- End Footer -->
+	
+
+	
+	
+	<script src="{{ url_for('static', filename='js/jquery.min.js') }}" type="text/javascript"></script> 
+	<script src="{{ url_for('static', filename='js/popper.min.js') }}" type="text/javascript"></script> 
+	<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}" type="text/javascript"></script> 
+	
+	
+	<script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}" type="text/javascript"></script> 
+	<script src="{{ url_for('static', filename='js/jquery.pogo-slider.min.js') }}" type="text/javascript"></script> 
+			<script src="{{ url_for('static', filename='js/slider-index.js') }}" type="text/javascript"></script> 
+				<script src="{{ url_for('static', filename='js/smoothscroll.js') }}" type="text/javascript"></script> 
+					<script src="{{ url_for('static', filename='js/TweenMax.min.js') }}" type="text/javascript"></script> 
+						<script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script> 
+							<script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}" type="text/javascript"></script> 
+							
+	<script src="{{ url_for('static', filename='js/form-validator.min.js') }}" type="text/javascript"></script> 
+	<script src="{{ url_for('static', filename='js/contact-form-script.js') }}" type="text/javascript"></script> 
+	<script src="{{ url_for('static', filename='js/isotope.min.js') }}" type="text/javascript"></script> 
+	<script src="{{ url_for('static', filename='js/images-loded.min.js') }}" type="text/javascript"></script> 
+	
+	<script src="{{ url_for('static', filename='js/custom.js') }}" type="text/javascript"></script> 
+	<script src="{{ url_for('static', filename='js/main1.js') }}" type="text/javascript"></script> 
+	
+	
+	
+</body>
+</html>
